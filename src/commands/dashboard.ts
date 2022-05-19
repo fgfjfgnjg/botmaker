@@ -8,6 +8,6 @@ export default class DashboardCommand implements Command {
     module = 'General';
     
     async execute(ctx: CommandContext) {
-        return ctx.channel.send(`${process.env.DASHBOARD_URL}/servers/${ctx.guild.id}`);
+        return ctx.channel.send(`**Under Development**, It will introduce soon!`);
     }
 }
