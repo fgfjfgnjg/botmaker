@@ -8,6 +8,6 @@ export default class LeaderboardCommand implements Command {
     module = 'Leveling';
     
     execute = async(ctx: CommandContext) => {
-        ctx.channel.send(`${process.env.DASHBOARD_URL}/bots/${ctx.bot.user.id}/leaderboard/${ctx.guild.id}`);
+        ctx.channel.send(`**Under Development**, It will introduce soon!`);
     }
 }
