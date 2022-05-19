@@ -8,6 +8,6 @@ export default class HelpCommand implements Command {
     module = 'General';
     
     execute = async(ctx: CommandContext) => {
-        await ctx.channel.send(`${process.env.DASHBOARD_URL}/commands`);
+        await ctx.channel.send(`**Under Development**, It will introduce soon!`);
     }
 }
